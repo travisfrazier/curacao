@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Main Styles ---------- */
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #6e6e6e;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+header {
+  height: 575px;
+  padding-top: 160px;
+  text-align: center;
+  background: linear-gradient(#145da1, transparent 60%), linear-gradient(0deg, #fff, transparent), #145da1 url(../images/directors.jpg) no-repeat center;
+  background-size: cover;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #145da1;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 12px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  color: #000000;
+}
+
+/* Id Selectors ---------- */
+#top {
+  font-size: 1.2rem;
+  color: white;
+  border-bottom: 1px solid;
+  margin-top: 20px;
+  display: none;
+}
+
+#up-top {
+  color: white;
+}
+
+/* Main Classes ---------- */
+
+.intro {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+main {
+  background-color: #e9e8e8;
+}
+
+.locations {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.end {
+  color: white;
+}
+
+.intro p {
+  padding-top: 15px;
+  margin-bottom: 75px;
+}
+
+.intro span {
+  margin-bottom: 100px;
+  display: inline-block;
+  border-bottom: 2px solid rgba(26, 26, 26, 0.5);
+}
+
+.arrow {
+  margin-top: 100px;
+  color: white;
+  width: 45px;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.tips {
+  float: right;
+  width: 45%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #145da1;
+}
+
+a:visited {
+  color: #145da1;
+}
