@@ -79,6 +79,7 @@ main {
 .intro p {
   padding-top: 15px;
   margin-bottom: 75px;
+  text-align: center;
 }
 
 .intro span {
